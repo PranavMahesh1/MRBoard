@@ -1,0 +1,103 @@
+/* AcmlmBoard XD - Dang it, doing themes is too hard!!! */
+@import url('../../css/borders.css');
+
+body
+{
+	background: #000 url(back.png);
+}
+
+.cell0
+{
+	background: #000 url(back.png);
+}
+
+.cell1
+{
+	background: #028E8E;
+}
+
+.cell2, .faq
+{
+	background: #028E8E;
+}
+
+.outline
+{
+		box-shadow: 0px 0px 0px;
+}
+
+#header, .PoRT
+{
+	box-shadow: none;
+}
+
+table.outline
+{
+}
+
+a:link
+{
+	color: turquoise;
+}
+
+a:visited
+{
+	color: turquoise;
+}
+
+a:active
+{
+	color: yellow;
+}
+
+a:hover
+{
+	color: white;
+}
+
+.header0 th, .errort
+{
+	background: #028E8E;
+}
+
+.header1 th
+{
+	background: purple;
+}
+
+table.post
+{
+	box-shadow: 0px 0px 0px;
+}
+
+td.side, td.meta, table.post td.post
+{
+	background: #028E8E;
+}
+
+input, select, textarea, button
+{
+	border: 1px solid #663399;
+	background: #000000;
+	color: white;
+}
+
+div#tabs {
+	padding-left: 8px;
+	margin-bottom: 0px;
+}
+
+div#tabs button
+{
+	background: #028E8E;
+	border: 1px solid #000;
+	padding-right: 16px;
+}
+
+div#tabs button.selected
+{
+	position: static;
+	z-index: -100;
+	border-bottom: 1px solid #2f2f5f;
+}
+

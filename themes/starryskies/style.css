@@ -1,0 +1,223 @@
+/* Starry Skies */
+@import url('../../css/borders.css');
+body
+{
+	background: black url("starryskies.png");
+	color: #909;
+	text-shadow: #000 1px 1px 1px;
+}
+table, tr, td, th, div
+{
+	border-color: #603;
+}
+a:link { color: #8af; }
+a:visited { color: #8af; }
+a:active, a:hover { color: white; text-decoration: underline; }
+
+table.outline, table.post
+{
+	border: 1px solid color: #603;
+	border-radius: 10px;
+	text-shadow: #000 1px 1px 1px;
+	
+}
+
+.margin, .pages
+{
+	margin-bottom: 1.3em;
+	text-shadow: #000 1px 1px 1px;
+}
+
+div#page_contents
+{
+	padding: 1em;
+	text-shadow: #000 1px 1px 1px;
+}
+/*
+table.outline > tbody > tr > *,
+table.post td.userlink,
+table.post td.meta
+{
+	border-bottom: 1px solid rgba(182, 48, 153, 0.9);
+	
+}*/
+/*
+table.outline > tbody:last-child > tr:last-child > *
+{
+	border-bottom: none 0;
+}*/
+
+table.outline > tbody > tr > td,
+table.post td.side:not(.userlink)
+{
+	border-right: 1px solid #603;
+	padding: 3px 5px;
+}
+
+table.outline > tbody > tr > td:last-child
+{
+	border-right: none 0;
+}
+
+table.outline > tbody:first-child > tr:first-child > *:first-child,
+table.post td.userlink
+{
+	border-top-left-radius: 9px;
+}
+table.outline > tbody:first-child > tr:first-child > *:last-child,
+table.post td.meta
+{
+	border-top-right-radius: 9px;
+}
+table.outline > tbody:last-child > tr:last-child > *:first-child,
+table.post td.side:not(.userlink),
+table.deletedpost td.side
+{
+	border-bottom-left-radius: 9px;
+}
+table.outline > tbody:last-child > tr:last-child > *:last-child,
+table.post td.post,
+table.deletedpost td.meta
+{
+	border-bottom-right-radius: 9px;
+}
+
+tbody {
+
+}
+tr.header0 > th,
+tr.header1 > th,
+table.post td.userlink,
+table.post td.meta
+{
+background: rgb(174,0,145); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FlMDA5MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzk3MDU3ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4MjA4NmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(174,0,145,1) 0%, rgba(151,5,127,1) 44%, rgba(130,8,109,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,0,145,1)), color-stop(44%,rgba(151,5,127,1)), color-stop(100%,rgba(130,8,109,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(174,0,145,1) 0%,rgba(151,5,127,1) 44%,rgba(130,8,109,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(174,0,145,1) 0%,rgba(151,5,127,1) 44%,rgba(130,8,109,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(174,0,145,1) 0%,rgba(151,5,127,1) 44%,rgba(130,8,109,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(174,0,145,1) 0%,rgba(151,5,127,1) 44%,rgba(130,8,109,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae0091', endColorstr='#82086d',GradientType=0 ); /* IE6-8 */
+
+padding: 4px 6px;
+text-shadow: 1px 1px 2px #000;
+}
+
+tr.cell0 > td:not(.cell1), tr.cell2 > td:not(.cell1),
+td.cell1, td.cell2,
+tr.cell1 > td:not(.cell0):not(.cell2),
+table.post td.post
+{
+	background: rgba(106, 73, 153, 0.9);
+}
+
+.cell0 {
+background: rgba(103,76,155, 0.8);
+}
+
+td.cell2
+{
+	background: rgba(103,76,155, 0.8);/*#222c28;*/
+	/* 282828 */
+}
+
+td.cell0 {
+background: black url("starryskies.png");
+}
+
+
+table#header,
+table#header > tbody > tr > *,
+table#footer,
+table#footer > tbody > tr > *
+{
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+}
+
+table#header
+{
+	border-top-width: 0;
+}
+
+table#footer
+{
+	border-bottom-width: 0;
+}
+
+table#sidebar,
+table#sidebar > tbody > tr > *
+{
+	border-left-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-radius: 0;
+}
+
+table#page-container > tbody > tr:first-child > td.crumb-container > table
+{
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+}
+
+table#page-container > tbody > tr:last-child > td.crumb-container > table
+{
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+}
+
+table#page-container > tbody > tr:first-child > td.crumb-container > table > tbody > tr > *,
+table#page-container > tbody > tr:last-child > td.crumb-container > table > tbody > tr > *
+{
+	border-radius: 0;
+}
+
+#header-sep
+{
+	height: 6px;
+}
+
+button, input[type="button"], input[type="submit"]
+{
+	border: 2px solid #23f;
+	background: black;
+	color: #eef;
+	text-shadow: #000 1px 1px 1px;
+}
+
+input[type="text"], input[type="password"], input[type="file"], input[type="email"], select, textarea
+{
+	background: black;
+	border: 1px solid #23f;
+	color: #C0C;
+	text-shadow: #000 1px 1px 1px;
+}
+
+div#tabs button
+{
+	border-width: 1px;
+	border-radius: 0px;
+	margin-bottom: 1px;
+	text-shadow: #000 1px 1px 1px;
+}
+
+div#tabs button.selected
+{
+	border-bottom: 1px solid #603;
+	background: #603;
+	text-shadow: #000 1px 1px 1px;
+}
+
+
+div.postToolbar button
+{
+	width: 1.9em;
+	height: 1.9em;
+}
